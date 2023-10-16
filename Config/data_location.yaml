@@ -1,0 +1,7 @@
+path: C:\ConceivableProjects\egg_in_stripper\v5\Data
+train: images/train 
+val: images/val 
+
+names:
+  0: egg_in_stripper
+  1: stripper_tip
