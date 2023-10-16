@@ -1,0 +1,33 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# Hyperparameters when using Albumentations frameworks
+# python train.py --hyp hyp.no-augmentation.yaml
+# See https://github.com/ultralytics/yolov5/pull/3882 for YOLOv5 + Albumentations Usage examples
+
+lr0: 0.0001
+lrf: 0.01
+momentum: 0.937
+weight_decay: 0.0005
+warmup_epochs: 3.0
+warmup_momentum: 0.8
+warmup_bias_lr: 0.1
+box: 0.05
+cls: 0.3
+cls_pw: 3
+obj: 0.7
+obj_pw: 3
+iou_t: 0.65
+anchor_t: 3.0
+fl_gamma: 0.0
+hsv_h: 0.1
+hsv_s: 0.25
+hsv_v: 0.25
+degrees: 0
+translate: 0.0
+scale: 0.5
+shear: 0
+perspective: 0.0
+flipud: 0.5
+fliplr: 0.5
+mosaic: 1.0
+mixup: 0.0
+copy_paste: 0.0
